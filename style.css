@@ -1,0 +1,111 @@
+.container{
+	padding: 10px;
+}
+.green_blocks{
+	width: 100%;
+	height: 100px;
+	background-color: green;
+	display: block;
+}
+.blue_blocks{
+	height: 400px;
+	width: 30%;
+	display: inline-block;
+	background-color: blue;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+.red_blocks{
+	height: 500px;
+	width: 65%;
+	display: inline-block;
+	background-color: red;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 20px;
+}
+
+.yellow{
+	display: inline-block;
+	width: 32%;
+	height: 300px;
+	background-color: yellow;
+	margin: 4px;
+}
+
+.violet{
+	display: block;
+	background-color: violet;
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 480px){
+	.blue_blocks{
+		display: none;
+	}
+	.green_blocks{
+		width: 100%;
+	}
+	.red_blocks{
+		width: 90%;
+		margin-left: 0px;
+		height: 450px;
+	}
+	.yellow{
+		width: 100%;
+		display: block;
+		height: 100px;
+		margin-top: 10px;
+	}
+	.violet{
+		width: 100%;
+		display: block;
+		margin: 4px;
+		margin-top: 20px;
+
+	}
+
+}
+@media only screen and (min-width: 481px){
+	.blue_blocks{
+		display: none;
+	}
+	.green_blocks{
+		width: 100%;
+	}
+	.red_blocks{
+		width: 95%;
+		margin-left: 0px;
+		height: 550px;
+	}
+	.yellow{
+		width: 43%;
+		height: 200px;
+		margin-left: 23px;
+
+	}
+}
+@media only screen and (min-width: 1024px){
+	.blue_blocks{
+		display: inline-block;
+	}
+	.red_blocks{
+		width: 65%;
+		height: 450px;
+		margin-left: 5px;
+	}
+	.yellow{
+		display: inline-block;
+		width: 31%;
+		background-color: yellow;
+		margin: 5px;
+		height: 300px;
+	}
+	.violet{
+		width: 98%;
+	}
+
+}
